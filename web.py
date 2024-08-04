@@ -81,7 +81,7 @@ comp.create_gap(3)
 
 st.divider()
 
-col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 3, 3, 3, 3, 3, 1])
+col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 3, 3, 2, 2, 2, 1])
 
 with col3:
     st.image(value.POWERED_BY_AIESEC_LOGO)
