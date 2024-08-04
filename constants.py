@@ -57,7 +57,7 @@ NADUNI_NAME = "Naduni Kavindya"
 NADUNI_POSITION = "Delegates"
 NADUNI_CONTACT_NO = "071 108 7399"
 NADUNI_EMAIL = "naduni.kavindya@aiesec.net"
-NADUNI_IMAGE = "images/OC Edited/Naduni.png"
+NADUNI_IMAGE = BASE_URL + "1KvWmHTbpz8lhgXwAANULo8xEdWgZxQgm"
 
 # Asna
 
@@ -94,7 +94,7 @@ ONNELA_NAME = "Onnela Moore"
 ONNELA_POSITION = "PR"
 ONNELA_CONTACT_NO = "076 044 4216"
 ONNELA_EMAIL = "onnela.moore@aiesec.net"
-ONNELA_IMAGE = "images/OC Edited/Onnela.png"
+ONNELA_IMAGE = BASE_URL + "1yjjpdsSFqnYN1xEgQK5I4yS1GjY8HCAw"
 
 # OCVP PD
 
@@ -139,7 +139,7 @@ HIRUSHAN_NAME = "Hirushan Rupasinghe"
 HIRUSHAN_POSITION = "E & L"
 HIRUSHAN_CONTACT_NO = "070 219 3205"
 HIRUSHAN_EMAIL = "hirushan.rupasinghe@aiesec.net"
-HIRUSHAN_IMAGE = "images/OC Edited/Hirushan.png"
+HIRUSHAN_IMAGE = BASE_URL + "1F2kO6Xk8oriXDlEh4FEY_ZsyqCJdzeca"
 
 # Marketing
 
