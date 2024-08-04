@@ -15,7 +15,7 @@ def aiesec_page():
 
     col4, col5, col6 = st.columns([4, 4, 4])
     with col5:
-        st.image("images/AIESEC Logos/AIESEc-length-logo.png")
+        st.image(value.AIESEC_LOGO)
 
     comp.create_gap(3)
 

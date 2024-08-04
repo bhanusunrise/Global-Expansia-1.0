@@ -163,3 +163,11 @@ GEYATHI_POSITION = "Marketing"
 GEYATHI_CONTACT_NO = "075 542 3799"
 GEYATHI_EMAIL = "geyathi.abeynayaka@aiesec.net"
 GEYATHI_IMAGE = "images/OC Edited/Geyathi.png"
+
+
+# Images
+
+# Base URL
+
+BASE_URL = "https://lh3.googleusercontent.com/d/"
+AIESEC_LOGO = BASE_URL + "1rFAA2_G4bgfprTTrLSoOJNuRc-u7H7sd"
