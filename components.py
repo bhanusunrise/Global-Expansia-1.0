@@ -67,7 +67,7 @@ def functional_link(function_name, color, description, image_link):
 
     st.markdown(f"""
                 <center>
-                    <button style="background-color:#003577; border-color: white; border-radius: 20px; padding-top: 10px; padding-left: 30px; padding-right: 30px; padding-bottom: 10px;">See More</button>
+                    <button style="background-color:#003577; border-color: white; border-radius: 20px; padding-top: 10px; padding-left: 30px; padding-right: 30px; padding-bottom: 10px;">Sign Up Now</button>
                 </center>
                 """,
                 unsafe_allow_html=True)
