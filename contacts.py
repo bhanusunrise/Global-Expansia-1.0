@@ -5,6 +5,8 @@ import constants as value
 
 def contacts_page():
 
+    comp.create_gap(1)
+
     comp.section_topic("Meet our team")
 
     comp.create_gap(2)

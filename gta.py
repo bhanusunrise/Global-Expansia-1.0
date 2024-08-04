@@ -5,6 +5,8 @@ import streamlit as st
 
 def gta_page():
 
+    comp.create_gap(1)
+
     comp.section_topic("Internships")
 
     comp.create_gap(1)

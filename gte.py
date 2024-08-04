@@ -5,6 +5,8 @@ import streamlit as st
 
 def gte_page():
 
+    comp.create_gap(1)
+
     comp.section_topic("Become a Teacher")
 
     comp.create_gap(1)

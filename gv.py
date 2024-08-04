@@ -5,6 +5,8 @@ import streamlit as st
 
 def gv_page():
 
+    comp.create_gap(1)
+
     comp.section_topic("Volunteering Opprtunities")
 
     comp.create_gap(1)
