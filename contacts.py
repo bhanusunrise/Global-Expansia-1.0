@@ -9,7 +9,7 @@ def contacts_page():
 
     comp.section_topic("Meet our team")
 
-    comp.create_gap(2)
+    comp.create_gap(1)
 
     col1, col2, col3, col4 = st.columns([2, 2, 2, 2])
 
