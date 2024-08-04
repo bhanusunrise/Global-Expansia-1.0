@@ -64,8 +64,8 @@ st.markdown("""
 tab1, tab2, tab3, teb4, tab4, tab6, tab7 = st.tabs(
     ["Home", "About Global Expansia", "About AIESEC", "Global Volunteer", "Global Talent", "Global Teacher", "Contact Us"])
 
-# with tab1:
-# hm.home_page()
+with tab1:
+    hm.home_page()
 
 with tab2:
     event.event_page()
@@ -73,8 +73,8 @@ with tab2:
 with tab3:
     aiesec.aiesec_page()
 
-# with tab7:
-# cnt.contacts_page()
+with tab7:
+    cnt.contacts_page()
 
 
 comp.create_gap(3)
