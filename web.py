@@ -4,6 +4,8 @@ import about_event as event
 import about_aiesec as aiesec
 import contacts as cnt
 import gv as gv
+import gta as gta
+import gte as gte
 import components as comp
 import constants as value
 
@@ -76,6 +78,12 @@ with tab3:
 
 with tab4:
     gv.gv_page()
+
+with tab5:
+    gta.gta_page()
+
+with tab6:
+    gte.gte_page()
 
 with tab7:
     cnt.contacts_page()
