@@ -1,5 +1,7 @@
 # This file is used to store all the constants which related to the program
 
+BASE_URL = "https://lh3.googleusercontent.com/d/"
+
 # Website Colors
 
 COLOR_PRIMARY = "#3B71CA"
@@ -30,9 +32,9 @@ DESC_GTE = "Our teaching opportunities are very diverse - whether looking to tea
 
 # Function logos
 
-LOGO_GV = "images/AIESEC Logos/logo_GV-Color.png"
-LOGO_GTA = "images/AIESEC Logos/logo_GT-Color.png"
-LOGO_GTE = "images/AIESEC Logos/logo_GTe-Color.png"
+LOGO_GV = BASE_URL + "1LjouFPpE0yThQSwEYz5L3QaMVdT0U7pW"
+LOGO_GTA = BASE_URL + "1czXj9kZ-jXWgQGvtYUCB7LCBAArS_cgy"
+LOGO_GTE = BASE_URL + "1ClPr4tXpAz2HxwvFy56phaJNgvkL_6Ci"
 
 
 # Organizing Committee
@@ -167,7 +169,6 @@ GEYATHI_IMAGE = "images/OC Edited/Geyathi.png"
 
 # Images
 
-BASE_URL = "https://lh3.googleusercontent.com/d/"
 AIESEC_LOGO = BASE_URL + "1rFAA2_G4bgfprTTrLSoOJNuRc-u7H7sd"
 EVENT_LOGO = BASE_URL + "159fTGFDJrFEh417rvud8AMpdpADfoHIU"
 POWERED_BY_AIESEC_LOGO = BASE_URL + "1Tka4387EOYzBOYsHezd8UVzkCjyxU2pO"
