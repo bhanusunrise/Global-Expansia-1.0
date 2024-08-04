@@ -81,29 +81,8 @@ comp.create_gap(3)
 
 st.divider()
 
-col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 3, 3, 1, 1, 1, 1])
+col1, col2, col3 = st.columns([1, 10, 1])
 
-with col3:
-    st.image(value.POWERED_BY_AIESEC_LOGO)
 
 with col2:
-    st.image(value.EVENT_LOGO)
-
-with col4:
-    st.image(value.LOGO_GTA)
-
-with col5:
-    st.image(value.LOGO_GTE)
-
-with col6:
-    st.image(value.LOGO_GV)
-st.markdown(
-    """
-    <div style='text-align:center'>
-        <p style='font-size: 15px; color: #FFFFFF;'>
-            <b>Developed by :</b> Global Expansia Organizing Committee - AIESEC in University of Kelaniya
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+    st.image(value.FOOTER)
