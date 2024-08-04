@@ -84,10 +84,10 @@ st.divider()
 col1, col2, col3, col4 = st.columns([4, 2, 2, 4])
 
 with col3:
-    st.image("images/AIESEC Logos/powered-by-AIESEC.png")
+    st.image(value.POWERED_BY_AIESEC_LOGO)
 
 with col2:
-    st.image("images/10.png")
+    st.image(value.EVENT_LOGO)
 
 st.markdown(
     """

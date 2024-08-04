@@ -167,7 +167,7 @@ GEYATHI_IMAGE = "images/OC Edited/Geyathi.png"
 
 # Images
 
-# Base URL
-
 BASE_URL = "https://lh3.googleusercontent.com/d/"
 AIESEC_LOGO = BASE_URL + "1rFAA2_G4bgfprTTrLSoOJNuRc-u7H7sd"
+EVENT_LOGO = BASE_URL + "159fTGFDJrFEh417rvud8AMpdpADfoHIU"
+POWERED_BY_AIESEC_LOGO = BASE_URL + "1Tka4387EOYzBOYsHezd8UVzkCjyxU2pO/"
