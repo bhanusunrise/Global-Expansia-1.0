@@ -81,7 +81,7 @@ comp.create_gap(3)
 
 st.divider()
 
-col1, col2, col3 = st.columns([1, 10, 1])
+col1, col2, col3 = st.columns([1, 20, 1])
 
 
 with col2:
