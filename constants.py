@@ -47,7 +47,7 @@ UMAYANGI_NAME = "Umayangi Jayathilaka"
 UMAYANGI_POSITION = "President"
 UMAYANGI_CONTACT_NO = "071 156 8876"
 UMAYANGI_EMAIL = "umayangi.jayathilaka@aiesec.net"
-UMAYANGI_IMAGE = "images/OC Edited/Umayangi.png"
+UMAYANGI_IMAGE = BASE_URL + "15qLpKN2d1GrmOjiwgN0VyfeeIclT1Vie"
 
 # OCVP Del
 
@@ -73,7 +73,7 @@ THISHYA_NAME = "Thishya Bamunuarachchi"
 THISHYA_POSITION = "Delegates"
 THISHYA_CONTACT_NO = "077 251 6922"
 THISHYA_EMAIL = "thishya.bamunuarachchi@aiesec.net"
-THISHYA_IMAGE = "images/OC Edited/Thishya.png"
+THISHYA_IMAGE = BASE_URL + "1ngo9kSbNl15UUbW5jRYsTUUxb7Rtzpab"
 
 
 # OCVP Finance
