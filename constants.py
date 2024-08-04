@@ -123,7 +123,7 @@ THARIDI_NAME = "Tharidi Jayaweera"
 THARIDI_POSITION = "E & L"
 THARIDI_CONTACT_NO = "076 279 6808"
 THARIDI_EMAIL = "tharidi.jayaweera@aiesec.net"
-THARIDI_IMAGE = "images/OC Edited/Tharidi.png"
+THARIDI_IMAGE = BASE_URL + "1yCeyUu69KNggyq44BV2Uty9VHmzgHWYR"
 
 # Pasindu
 
@@ -149,7 +149,7 @@ THEJANI_NAME = "Thejani Somarathna"
 THEJANI_POSITION = "Marketing"
 THEJANI_CONTACT_NO = "070 289 9827"
 THEJANI_EMAIL = "thejani.somarathna@aiesec.net"
-THEJANI_IMAGE = "images/OC Edited/Thejani.png"
+THEJANI_IMAGE = BASE_URL + "1ieNZyqeNPCT00AqXn0nP-HqUF6SCulN9"
 
 # Safaa
 
@@ -157,7 +157,7 @@ SAFAA_NAME = "Safaa Amir"
 SAFAA_POSITION = "Marketing"
 SAFAA_CONTACT_NO = "074 005 2395"
 SAFAA_EMAIL = "safaa.amir@aiesec.net"
-SAFAA_IMAGE = "images/OC Edited/Safaa.png"
+SAFAA_IMAGE = BASE_URL + "1JUWMQezPEjjTeh0RHwtkArBPRcByi7mp"
 
 # Geyathi
 
