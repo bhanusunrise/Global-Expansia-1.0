@@ -41,24 +41,7 @@ def home_page():
 
     comp.section_topic("Contact Us")
 
-    col4, col5, col6, col17, col18 = st.columns([1, 2, 2, 2, 1])
+    col4, col5, col6 = st.columns([1, 10, 1])
 
-    with col6:
-        comp.contact_section(value.UMAYANGI_NAME, value.UMAYANGI_POSITION,
-                             value.UMAYANGI_EMAIL, value.UMAYANGI_CONTACT_NO, value.UMAYANGI_IMAGE)
-
-    comp.create_gap(1)
-
-    col7, col8, col9, col15, col16 = st.columns([1, 2, 2, 2, 1])
-
-    with col8:
-        comp.contact_section(value.NADUNI_NAME, value.NADUNI_POSITION,
-                             value.NADUNI_EMAIL, value.NADUNI_CONTACT_NO, value.NADUNI_IMAGE)
-
-    with col9:
-        comp.contact_section(value.ASNA_NAME, value.ASNA_POSITION,
-                             value.ASNA_EMAIL, value.ASNA_CONTACT_NO, value.ASNA_IMAGE)
-
-    with col15:
-        comp.contact_section(value.THISHYA_NAME, value.THISHYA_POSITION,
-                             value.THISHYA_EMAIL, value.THISHYA_CONTACT_NO, value.THISHYA_IMAGE)
+    with col5:
+        st.image(value.FOOTER)
