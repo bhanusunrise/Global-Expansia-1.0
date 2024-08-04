@@ -3,6 +3,7 @@ import home as hm
 import about_event as event
 import about_aiesec as aiesec
 import contacts as cnt
+import gv as gv
 import components as comp
 import constants as value
 
@@ -72,6 +73,9 @@ with tab2:
 
 with tab3:
     aiesec.aiesec_page()
+
+with tab4:
+    gv.gv_page()
 
 with tab7:
     cnt.contacts_page()
