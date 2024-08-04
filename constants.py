@@ -65,7 +65,7 @@ ASNA_NAME = "Asna Jiffry"
 ASNA_POSITION = "Delegates"
 ASNA_CONTACT_NO = "077 612 2376"
 ASNA_EMAIL = "asna.jiffry@aiesec.net"
-ASNA_IMAGE = "images/OC Edited/Asna.png"
+ASNA_IMAGE = BASE_URL + "1PJrP3GvXAvzNiP5gu5ft_M3zHCebV5NO"
 
 # Thisya
 
@@ -104,7 +104,7 @@ DANINDU_NAME = "Danindu Ransika"
 DANINDU_POSITION = "PD"
 DANINDU_CONTACT_NO = "078 445 2322"
 DANINDU_EMAIL = "danindu.ransika@aiesec.net"
-DANINDU_IMAGE = "images/OC Edited/Danindu.png"
+DANINDU_IMAGE = BASE_URL + "10gCMRswxx0F0C3WngzrzMWqGCUU_vBbz"
 
 # Githmi
 
@@ -112,7 +112,7 @@ GITHMI_NAME = "Githmi De Silva"
 GITHMI_POSITION = "PD"
 GITHMI_CONTACT_NO = "070 177 7140"
 GITHMI_EMAIL = "githmi.desilva@aiesec.net"
-GITHMI_IMAGE = "images/OC Edited/Githmi.png"
+GITHMI_IMAGE = BASE_URL + "12CGV3sadD8ybwJnV4uP3OLUkq_DDOGTS"
 
 # OCVP E & L
 
