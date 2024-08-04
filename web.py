@@ -90,13 +90,13 @@ with col2:
     st.image(value.EVENT_LOGO)
 
 with col4:
-    st.image(value.LOGO_GTA, width="small")
+    st.image(value.LOGO_GTA)
 
 with col5:
-    st.image(value.LOGO_GTE, width="small")
+    st.image(value.LOGO_GTE)
 
 with col6:
-    st.image(value.LOGO_GV, width="small")
+    st.image(value.LOGO_GV)
 st.markdown(
     """
     <div style='text-align:center'>
