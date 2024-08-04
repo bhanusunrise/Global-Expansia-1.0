@@ -112,7 +112,8 @@ GITHMI_NAME = "Githmi De Silva"
 GITHMI_POSITION = "PD"
 GITHMI_CONTACT_NO = "070 177 7140"
 GITHMI_EMAIL = "githmi.desilva@aiesec.net"
-GITHMI_IMAGE = BASE_URL + "12CGV3sadD8ybwJnV4uP3OLUkq_DDOGTS"
+# GITHMI_IMAGE = BASE_URL + "12CGV3sadD8ybwJnV4uP3OLUkq_DDOGTS"
+GITHMI_IMAGE = BASE_URL + "1GoyF_BE_i0cTyGcsL2GWcU8WTubXIBNj"
 
 # OCVP E & L
 
@@ -164,7 +165,7 @@ GEYATHI_NAME = "Geyathi Abeynayaka"
 GEYATHI_POSITION = "Marketing"
 GEYATHI_CONTACT_NO = "075 542 3799"
 GEYATHI_EMAIL = "geyathi.abeynayaka@aiesec.net"
-GEYATHI_IMAGE = "images/OC Edited/Geyathi.png"
+GEYATHI_IMAGE = BASE_URL + "12CGV3sadD8ybwJnV4uP3OLUkq_DDOGTS"
 
 
 # Images
