@@ -84,7 +84,7 @@ ROSHANA_NAME = "Roshana Rajendran"
 ROSHANA_POSITION = "Finance"
 ROSHANA_CONTACT_NO = "077 231 6284"
 ROSHANA_EMAIL = "roshana.rajendran@aiesec.net"
-ROSHANA_IMAGE = "images/OC Edited/Roshana.png"
+ROSHANA_IMAGE = BASE_URL + "1wXUNmOquhvjxb8-jvtLxE3RcH-3L-T9K"
 
 # OCVP PR
 
@@ -131,7 +131,7 @@ PASINDU_NAME = "Pasindu Bhanuka"
 PASINDU_POSITION = "E & L"
 PASINDU_CONTACT_NO = "076 201 8348"
 PASINDU_EMAIL = "pasindu.bhanuka@aiesec.net"
-PASINDU_IMAGE = "images/OC Edited/Pasindu.png"
+PASINDU_IMAGE = BASE_URL + "129lYvfQxMWNIsDZ1j_iuWMiuAjRN76hI"
 
 # Hirushan
 
