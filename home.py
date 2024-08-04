@@ -49,7 +49,16 @@ def home_page():
 
     comp.create_gap(1)
 
-    col7, col8, col9 = st.columns([1, 10, 1])
+    col7, col8, col9, col15, col16 = st.columns([1, 2, 2, 2, 1])
 
     with col8:
-        st.image(value.FOOTER)
+        comp.contact_section(value.NADUNI_NAME, value.NADUNI_POSITION,
+                             value.NADUNI_EMAIL, value.NADUNI_CONTACT_NO, value.NADUNI_IMAGE)
+
+    with col9:
+        comp.contact_section(value.ASNA_NAME, value.ASNA_POSITION,
+                             value.ASNA_EMAIL, value.ASNA_CONTACT_NO, value.ASNA_IMAGE)
+
+    with col15:
+        comp.contact_section(value.THISHYA_NAME, value.THISHYA_POSITION,
+                             value.THISHYA_EMAIL, value.THISHYA_CONTACT_NO, value.THISHYA_IMAGE)
