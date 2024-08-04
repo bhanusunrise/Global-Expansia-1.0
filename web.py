@@ -86,3 +86,14 @@ col1, col2, col3 = st.columns([1, 10, 1])
 
 with col2:
     st.image(value.FOOTER)
+
+st.markdown(
+    """
+    <div style='text-align:center'>
+        <p style='font-size: 15px; color: #FFFFFF;'>
+            <b>Developed by :</b> Global Expansia Organizing Committee - AIESEC in University of Kelaniya
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
