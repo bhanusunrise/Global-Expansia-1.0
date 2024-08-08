@@ -15,3 +15,20 @@ def gta_page():
 
     with col2:
         st.image(value.GTA_1)
+
+    with col3:
+        st.image(value.GTA_7)
+
+    with col4:
+        st.image(value.GTA_4)
+
+    col6, col7, col8, col9, col10 = st.columns([1, 2, 2, 2, 1])
+
+    with col7:
+        st.image(value.GTA_5)
+
+    with col8:
+        st.image(value.GTA_8)
+
+    with col9:
+        st.image(value.GTA_3)

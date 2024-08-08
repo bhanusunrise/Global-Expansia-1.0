@@ -15,3 +15,26 @@ def gte_page():
 
     with col2:
         st.image(value.GTE_1)
+
+    with col3:
+        st.image(value.GTE_3)
+
+    with col4:
+        st.image(value.GTE_6)
+
+    col6, col7, col8, col9, col10 = st.columns([1, 2, 2, 2, 1])
+
+    with col7:
+        st.image(value.GTE_8)
+    with col8:
+        st.image(value.GTE_5)
+
+    with col9:
+        st.image(value.GTE_8)
+
+    col11, col12, col13, col14, col15 = st.columns([1, 2, 2, 2, 1])
+
+    with col12:
+        st.image(value.GTE_7)
+    with col14:
+        st.image(value.GTE_2)
