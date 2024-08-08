@@ -46,13 +46,13 @@ def gv_page():
 
     col15, col16, col17, col18, col9 = st.columns([1, 2, 2, 2, 1])
 
-    with col6:
+    with col16:
         st.image(value.GV_10)
 
-    with col7:
+    with col17:
         st.image(value.GV_11)
 
-    with col8:
+    with col18:
         st.image(value.GV_12)
 
     col20, col21, col22, col23, col24 = st.columns([1, 2, 2, 2, 1])
