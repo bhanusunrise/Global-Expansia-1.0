@@ -116,7 +116,7 @@ def contact_section(person_name, position, email, contact_number, image_link):
         .contacts a {
             color: #FFFFFF !important;   /* Font color white */
             text-decoration: none !important; /* Remove underlines */
-            font-size : 20px;
+            font-size : 15px;
         }
         </style>
         """,
