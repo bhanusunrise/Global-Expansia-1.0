@@ -19,6 +19,7 @@ def home_page():
             "The final event of Global Expansia is a physical event exclusively for confirmed participants eager to grab these life-changing opportunities."
         ])
 
+    st.image(value.EVENT_TIMELINE)
     comp.create_gap(3)
 
     comp.section_topic("Opportunities")
