@@ -15,8 +15,7 @@ def home_page():
                  clamp="", channels="RGB", output_format="auto")
 
         comp.infomation_package(" ", [
-            "Global Expansia is a transformative event series providing global volunteering and talent opportunities. Our program combines online, and physical awareness sessions designed to educate delegates about international volunteering and internship possibilities.",
-            "The final event of Global Expansia is a physical event exclusively for confirmed participants eager to grab these life-changing opportunities."
+            "Global Expansia organized by AIESEC in University of Kelaniya, is an event focused on personal branding through global volunteering and internships. Our program includes online sessions designed to educate delegates about international volunteering and internship opportunities while helping them build a strong personal brand. The series culminates in a final physical event offering a unique chance to secure life-changing opportunities and enhance their personal brand on a global scale."
         ])
 
     comp.create_gap(3)

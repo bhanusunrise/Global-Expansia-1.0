@@ -154,6 +154,3 @@ def volunteer_opportunity(title, country, project_name, description):
                     </div>
                 </div>
                 """)
-
-
-# This
