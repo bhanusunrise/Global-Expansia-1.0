@@ -21,15 +21,6 @@ def home_page():
 
     comp.create_gap(3)
 
-    # comp.section_topic("Event Timeline")
-
-    # col19, col20, col21 = st.columns([1, 4, 1])
-
-    # with col20:
-    # st.image(value.EVENT_TIMELINE)
-
-    # comp.create_gap(3)
-
     comp.section_topic("Opportunities")
 
     col1, col2, col3, col10, col11 = st.columns([1, 3, 3, 3, 1])

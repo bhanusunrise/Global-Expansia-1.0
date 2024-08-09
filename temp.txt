@@ -24,3 +24,17 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+
+
+
+--------------------------------Timeline-----------------------
+
+    # comp.section_topic("Event Timeline")
+
+    # col19, col20, col21 = st.columns([1, 4, 1])
+
+    # with col20:
+    # st.image(value.EVENT_TIMELINE)
+
+    # comp.create_gap(3)
