@@ -26,15 +26,15 @@ def home_page():
 
     with col2:
         comp.functional_link(value.TOPIC_GV, value.COLOR_AIESEC_GV,
-                             [value.DESC_GV], value.LOGO_GV)
+                             [value.DESC_GV], value.LOGO_GV, value.GV_LINK)
 
     with col3:
         comp.functional_link(value.TOPIC_GTA, value.COLOR_AIESEC_GTA, [
-            value.DESC_GTA], value.LOGO_GTA)
+            value.DESC_GTA], value.LOGO_GTA, "dsad")
 
     with col10:
         comp.functional_link(value.TOPIC_GTE, value.COLOR_AIESEC_GTE, [
-            value.DESC_GTE], value.LOGO_GTE)
+            value.DESC_GTE], value.LOGO_GTE, "saada")
 
     comp.create_gap(3)
 

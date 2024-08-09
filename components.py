@@ -48,7 +48,7 @@ def nav_button(inner_text, button_color, text_color, url):
 # You have to pass the function name, color, description and image link
 
 
-def functional_link(function_name, color, description, image_link):
+def functional_link(function_name, color, description, image_link, form_link):
     st.image(image_link, caption="", width=100, use_column_width="always",
              clamp="", channels="RGB", output_format="auto")
 
@@ -67,7 +67,9 @@ def functional_link(function_name, color, description, image_link):
 
     st.markdown(f"""
                 <center>
-                    <button style="background-color:#003577; border-color: white; border-radius: 20px; padding-top: 10px; padding-left: 30px; padding-right: 30px; padding-bottom: 10px;">Sign Up Now</button>
+                    <a href="{form_link}">
+                        <button style="background-color:#003577; border-color: white; border-radius: 20px; padding-top: 10px; padding-left: 30px; padding-right: 30px; padding-bottom: 10px;">Sign Up Now</button>
+                    </a>
                 </center>
                 """,
                 unsafe_allow_html=True)
@@ -91,6 +93,8 @@ def section_topic(heading):
 def contact_section(person_name, position, email, contact_number, image_link):
     if position != "President":
         position = "Vice President - " + position
+
+    display_number = contact_number_formatter(contact_number)
 
     st.markdown(
         """
@@ -139,7 +143,7 @@ def contact_section(person_name, position, email, contact_number, image_link):
         st.markdown(f"""
         <div class='contact-popover'>
             <p class="contacts"><a href="mailto:{email}">Email:<br/>{email}</a><br/><br/>
-            <a href="tel:{contact_number}">Contact Number : <br>{contact_number}</a></p>
+            <a href="tel:{contact_number}">Contact Number : <br>{display_number}</a></p>
         </div>
         """, unsafe_allow_html=True)
 
@@ -154,3 +158,14 @@ def volunteer_opportunity(title, country, project_name, description):
                     </div>
                 </div>
                 """)
+
+
+# This function is used to format the contact numbers
+
+def contact_number_formatter(contact_number):
+
+    contact_number = str(contact_number)
+    formatted_number = contact_number[:3] + " " + \
+        contact_number[3:6] + " " + contact_number[6:]
+
+    return formatted_number
