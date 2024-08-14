@@ -1,5 +1,7 @@
 # This file is used to store all the constants which related to the program
 
+import datetime
+
 BASE_URL = "https://lh3.googleusercontent.com/d/"
 
 # Website Colors
@@ -214,9 +216,14 @@ GTE_7 = BASE_URL + "1iuLat-gBLx8-8QXrzI1GDm-y2OQxq8JE"
 GTE_8 = BASE_URL + "1SqG2aPO5tGBiFYPFqZu4nWaJxur-bdIN"
 
 EVENT_TIMELINE = BASE_URL + "1Pm7Cdsttlh-EGF1Xc1iFV8fOSTl8FQu5"
+EVENT_TIMELINE_WITHOUT_FLASH_ROUNDS = BASE_URL + \
+    "16ebV7nYOqM_5_CTDoBgoprB9Gs-H4Jbo"
 
 # EVENT_TIMELINE = "images\\Timeline.png"
 
 GV_LINK = "https://signup.aiesec.lk/volunteer?ley=CN&trace=LK-GlobalExpansia_24"
 GTA_LINK = "https://apply.aiesec.lk/talent/?entity=CN&track=globalexpansia"
 GTE_LINK = "https://apply.aiesec.lk/teacher/?entity=CN&track=globalexpansia"
+
+TIMELINE_CHANGING_DATE = datetime.date(2024, 8, 26)
+current_date = datetime.date.today()

@@ -1,4 +1,5 @@
 import streamlit as st
+import constants as value
 
 # The following variables are defined for color values
 
@@ -169,3 +170,14 @@ def contact_number_formatter(contact_number):
         contact_number[3:6] + " " + contact_number[6:]
 
     return formatted_number
+
+# Timeline Image Changer
+
+
+def timeline_image_changer():
+
+    if (value.current_date >= value.TIMELINE_CHANGING_DATE):
+        st.image(value.EVENT_TIMELINE)
+
+    else:
+        st.image(value.EVENT_TIMELINE_WITHOUT_FLASH_ROUNDS)

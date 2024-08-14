@@ -25,7 +25,7 @@ def home_page():
     col40, col41, col42 = st.columns([1, 8, 2])
 
     with col41:
-        st.image(value.EVENT_TIMELINE)
+        comp.timeline_image_changer()
 
     comp.create_gap(3)
 
