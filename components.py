@@ -176,7 +176,7 @@ def contact_number_formatter(contact_number):
 
 def timeline_image_changer():
 
-    if (value.current_date >= value.TIMELINE_CHANGING_DATE):
+    if (value.current_date <= value.TIMELINE_CHANGING_DATE):
         st.image(value.EVENT_TIMELINE)
 
     else:
