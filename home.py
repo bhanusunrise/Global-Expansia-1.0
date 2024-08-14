@@ -20,6 +20,15 @@ def home_page():
 
     comp.create_gap(3)
 
+    comp.section_topic("Event Timeline")
+
+    col40, col41, col42 = st.columns([1, 8, 2])
+
+    with col41:
+        st.image(value.EVENT_TIMELINE)
+
+    comp.create_gap(3)
+
     comp.section_topic("Opportunities")
 
     col1, col2, col3, col10, col11 = st.columns([1, 3, 3, 3, 1])
@@ -30,11 +39,11 @@ def home_page():
 
     with col3:
         comp.functional_link(value.TOPIC_GTA, value.COLOR_AIESEC_GTA, [
-            value.DESC_GTA], value.LOGO_GTA, "dsad")
+            value.DESC_GTA], value.LOGO_GTA, value.GTA_LINK)
 
     with col10:
         comp.functional_link(value.TOPIC_GTE, value.COLOR_AIESEC_GTE, [
-            value.DESC_GTE], value.LOGO_GTE, "saada")
+            value.DESC_GTE], value.LOGO_GTE, value.GTE_LINK)
 
     comp.create_gap(3)
 

@@ -213,8 +213,10 @@ GTE_6 = BASE_URL + "1g8ZS2s4m6_KIRn4LKBL-7yApXnVFi-SA"
 GTE_7 = BASE_URL + "1iuLat-gBLx8-8QXrzI1GDm-y2OQxq8JE"
 GTE_8 = BASE_URL + "1SqG2aPO5tGBiFYPFqZu4nWaJxur-bdIN"
 
-# EVENT_TIMELINE = BASE_URL + "1oKWaM2A66lG6aCkaNBfnM8l0r7T8TOAU"
+EVENT_TIMELINE = BASE_URL + "1_UKz9YFhtr_VLOLUir68ijc4quxKaMqB"
 
-EVENT_TIMELINE = "images\\Timeline.png"
+# EVENT_TIMELINE = "images\\Timeline.png"
 
 GV_LINK = "https://signup.aiesec.lk/volunteer?ley=CN&trace=LK-GlobalExpansia_24"
+GTA_LINK = "https://apply.aiesec.lk/talent/?entity=CN&track=globalexpansia"
+GTE_LINK = "https://apply.aiesec.lk/teacher/?entity=CN&track=globalexpansia"
