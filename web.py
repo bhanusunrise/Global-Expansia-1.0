@@ -19,5 +19,5 @@ with col2:
         value.EVENT_DESCRIPTION_HOME
     ])
 
-    st.video(value.FLYER_7_VIDEO, format="video/mp4", start_time=0, *,
+    st.video(value.FLYER_7_VIDEO, format="video/mp4", start_time=0,
              subtitles=None, end_time=None, loop=True, autoplay=True, muted=False)

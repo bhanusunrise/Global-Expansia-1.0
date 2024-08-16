@@ -3,7 +3,7 @@
 import datetime
 
 BASE_URL = "https://lh3.googleusercontent.com/d/"
-BASE_URL_VIDEO = "https://drive.google.com/uc?export="
+BASE_URL_VIDEO = "https://drive.google.com/uc?export=download&id="
 
 # Website Colors
 
