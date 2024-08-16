@@ -12,8 +12,6 @@ col1, col2, col3 = st.columns([1, 9, 1])
 
 with col2:
 
-    comp.create_gap(1)
-
     st.image("images/10.png", caption="", width=20, use_column_width="always",
              clamp="", channels="RGB", output_format="auto")
 
