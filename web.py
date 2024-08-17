@@ -25,7 +25,7 @@ with col2:
 
     st.markdown(
         """
-        <iframe src="https://drive.google.com/file/d/Vz7Nj54Kxu4?si=3BuX9F31jbHX4PCb/preview" width="640" height="480" allow="autoplay" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://drive.google.com/file/d/106CF35kjHETWdIcpjw5n28aHA8QcVAHt/view?usp=drive_link" width="640" height="480" allow="autoplay" frameborder="0" allowfullscreen></iframe>
         """,
         unsafe_allow_html=True
     )
