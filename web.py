@@ -22,3 +22,10 @@ with col2:
 
     st.video(value.FLYER_7_VIDEO,
              loop=False, autoplay=False, muted=False)
+
+    st.markdown(
+        """
+        <iframe src="https://drive.google.com/file/d/Vz7Nj54Kxu4?si=3BuX9F31jbHX4PCb/preview" width="640" height="480" allow="autoplay" frameborder="0" allowfullscreen></iframe>
+        """,
+        unsafe_allow_html=True
+    )
