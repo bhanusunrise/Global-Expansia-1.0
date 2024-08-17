@@ -44,8 +44,8 @@ with col2:
 
     with col6:
         st.video(value.CN_LDS_VIDEO)
-        comp.infomation_package("", "Leadership Development Seminar")
+        comp.infomation_package("", ["Leadership Development Seminar"])
 
     with col7:
         st.video(value.CN_AWRUDU_VIDEO)
-        comp.infomation_package("", "CN Awurudu")
+        comp.infomation_package("", ["CN Awurudu"])
