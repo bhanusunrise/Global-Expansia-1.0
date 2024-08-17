@@ -31,5 +31,11 @@ with col2:
 
     comp.create_gap(3)
 
-    comp.infomation_package("Get to know AIESEC", ["We are a global, youth-led organization that strives to achieve Peace and Fulfillment of Humankind's Potential by engaging and developing every young person in the world with our unique Leadership Development Model.",
-                                                   "Our values guide us in our everyday behavior to encourage finding new solutions and ideas for current world issues. We believe that young people learn best by doing and reflecting. AIESEC enables young people to learn the most from every experience."])
+    col4, col5 = st.columns([5, 7])
+
+    with col4:
+        st.image(value.AIESEC_LOGO)
+
+    with col5:
+        comp.infomation_package("Get to Know AIESEC", ["We are a global, youth-led organization that strives to achieve Peace and Fulfillment of Humankind's Potential by engaging and developing every young person in the world with our unique Leadership Development Model.",
+                                                       "Our values guide us in our everyday behavior to encourage finding new solutions and ideas for current world issues. We believe that young people learn best by doing and reflecting. AIESEC enables young people to learn the most from every experience."])
