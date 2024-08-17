@@ -26,3 +26,5 @@ with col2:
     comp.create_gap(2)
 
     comp.section_topic("Event Timeline")
+
+    comp.timeline_image_changer()
