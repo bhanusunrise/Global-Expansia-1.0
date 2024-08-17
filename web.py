@@ -20,4 +20,4 @@ with col2:
     ])
 
     st.video(value.FLYER_7_VIDEO,
-             loop=True, autoplay=True, muted=False)
+             loop=False, autoplay=False, muted=False)
