@@ -35,6 +35,9 @@ with col2:
 
     with col4:
         st.image(value.AIESEC_LOGO)
+        st.image(value.LOGO_GV)
+        st.image(value.LOGO_GTA)
+        st.image(value.LOGO_GTE)
 
     with col5:
         comp.infomation_package("Get to Know AIESEC", ["We are a global, youth-led organization that strives to achieve Peace and Fulfillment of Humankind's Potential by engaging and developing every young person in the world with our unique Leadership Development Model.",
