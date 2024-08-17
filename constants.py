@@ -3,7 +3,8 @@
 import datetime
 
 BASE_URL = "https://lh3.googleusercontent.com/d/"
-BASE_URL_VIDEO = "https://drive.google.com/uc?export=download&id="
+BASE_URL_VIDEO = "https://youtu.be/"
+BASE_URL_SHORT_VIDEO = "https://youtube.com/shorts/"
 
 # Website Colors
 
@@ -218,11 +219,11 @@ GTE_8 = BASE_URL + "1SqG2aPO5tGBiFYPFqZu4nWaJxur-bdIN"
 
 FLYER_1_IMAGE = BASE_URL + "1rLVg-Fi9BmUJUYXQrWXTAW9GnlcluTwy"
 FLYER_2_IMAGE = BASE_URL + "148lQs649Tlu8r-t5rPHpe-EUkeP_vv8n"
-FLYER_3_VIDEO = BASE_URL_VIDEO + "1IBSJEH3-o63B1mMG1rwP4Aj-9SbBsCaA"
+FLYER_3_VIDEO = BASE_URL_SHORT_VIDEO + "O2wU6NnZAyo?si=Ea2p7T7Yok12b9Gl"
 FLYER_4_IMAGE = BASE_URL + "1SMl3jyqqpxK_J2hOiKY0bZJOe0hpZavv"
 FLYER_5_VIDEO = BASE_URL_VIDEO + "1uHjbRZuDaQdtv7CrlC5Sr1zV8bo4aTeF"
 FLYER_6_IMAGE = BASE_URL + "1uhTTSqx0X0lghkD8mm8SSa7ukwxGCBl4"
-FLYER_7_VIDEO = BASE_URL + "106CF35kjHETWdIcpjw5n28aHA8QcVAHt/preview"
+FLYER_7_VIDEO = BASE_URL_VIDEO + "Vz7Nj54Kxu4?si=3BuX9F31jbHX4PCb"
 FLYER_8_IMAGE = BASE_URL + "1hz2xfQNjeQLzmAB5oKG4ksDn1wTqFDcn"
 
 EVENT_TIMELINE = BASE_URL + "1Pm7Cdsttlh-EGF1Xc1iFV8fOSTl8FQu5"
