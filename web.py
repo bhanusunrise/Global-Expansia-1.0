@@ -39,4 +39,13 @@ with col2:
     with col5:
         comp.infomation_package("Get to Know AIESEC", ["We are a global, youth-led organization that strives to achieve Peace and Fulfillment of Humankind's Potential by engaging and developing every young person in the world with our unique Leadership Development Model.",
                                                        "Our values guide us in our everyday behavior to encourage finding new solutions and ideas for current world issues. We believe that young people learn best by doing and reflecting. AIESEC enables young people to learn the most from every experience."])
-    st.video(value.CN_LDS_VIDEO)
+
+    col6, col7 = st.columns([1, 1])
+
+    with col6:
+        st.video(value.CN_LDS_VIDEO)
+        comp.infomation_package("", "Leadership Development Seminar")
+
+    with col7:
+        st.video(value.CN_AWRUDU_VIDEO)
+        comp.infomation_package("", "CN Awurudu")
