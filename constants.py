@@ -4,6 +4,7 @@ import datetime
 
 BASE_URL = "https://lh3.googleusercontent.com/d/"
 BASE_URL_FLYER_VIDEO = "Flyer Videos/"
+BASE_URL_YOUTUBE = "https://youtu.be/"
 
 # Website Colors
 
@@ -177,6 +178,8 @@ EVENT_LOGO = BASE_URL + "159fTGFDJrFEh417rvud8AMpdpADfoHIU"
 POWERED_BY_AIESEC_LOGO = BASE_URL + "1Tka4387EOYzBOYsHezd8UVzkCjyxU2pO"
 FOOTER = BASE_URL + "1MTG2xTHQwyBLmtBvq2ksHmeWhB-1kMHd"
 AIESEC_MAN_LOGO = BASE_URL + "1Cm3yb3-r1Q0ugMy7oZXTSTngI0xGAfrR"
+
+CN_LDS_VIDEO = BASE_URL_YOUTUBE + "mY9z2PIN6nw?si=ucZi6ZgJwXaWEZhU"
 
 # Opportunities
 
