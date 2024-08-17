@@ -21,3 +21,8 @@ with col2:
 
     st.video(value.FLYER_7_VIDEO,
              loop=False, autoplay=False, muted=False)
+
+    # Embed YouTube video using IFrame with parameters to reduce branding
+    video_url = value.FLYER_7_VIDEO + "?rel=0&modestbranding=1&autohide=1"
+    st.markdown(f'<iframe width="640" height="360" src="{video_url}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
+                unsafe_allow_html=True)
