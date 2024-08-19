@@ -229,4 +229,4 @@ def frequently_asked_questions(question, answer):
 def loading_gif():
     st.image(value.AIESEC_MAN_WALKING)
     time.sleep(3)
-    st.experimental_rerun()
+    st.experimental_rerun
