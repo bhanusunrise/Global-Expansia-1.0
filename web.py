@@ -9,7 +9,7 @@ import time as time
 def loading_gif():
     st.image(value.AIESEC_MAN_WALKING)
     time.sleep(3)
-    st.experimental_rerun
+    st.experimental_rerun()
 
 
 if 'loaded' not in st.session_state:
