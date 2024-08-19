@@ -14,7 +14,7 @@ with col2:
     st.image(value.EVENT_LOGO, caption="", width=20, use_column_width="always",
              clamp="", channels="RGB", output_format="auto")
 
-    comp.create_gap(3)
+    comp.create_gap(2)
 
     col19, col20 = st.columns([7, 5])
 
