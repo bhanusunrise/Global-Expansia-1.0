@@ -60,7 +60,7 @@ with col2:
 
     comp.create_gap(3)
 
-    comp.section_topic("Let's See Some of Our Exchange Experiances")
+    comp.section_topic("Some of them ...")
 
     st.video("https://youtu.be/BvnFN2Ab-oQ?si=KfiKRGC-20TpaI92")
 
