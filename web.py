@@ -5,8 +5,15 @@ import time as time
 
 # Page Config and title
 
+
+def loading_gif():
+    st.image(value.AIESEC_MAN_WALKING)
+    time.sleep(3)
+    st.experimental_rerun
+
+
 if 'loaded' not in st.session_state:
-    comp.loading_gif()
+    loading_gif()
     st.session_state.loaded = True
 
 st.set_page_config(page_title="Global Expansia",
