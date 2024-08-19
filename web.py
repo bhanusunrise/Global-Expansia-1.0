@@ -3,24 +3,6 @@ import components as comp
 import constants as value
 import time
 
-# Page Config and title
-st.set_page_config(page_title="Global Expansia",
-                   page_icon=":earth_africa:", layout="wide")
-
-# Function to display the loading GIF
-
-
-def loading_gif():
-    st.image(value.AIESEC_MAN_WALKING)  # Display the loading GIF
-    time.sleep(3)  # Wait for 3 seconds
-
-
-# Check if the app is loaded
-if 'loaded' not in st.session_state:
-    loading_gif()  # Show the loading GIF
-    st.session_state.loaded = True  # Mark as loaded to skip the GIF in future reruns
-    # st.experimental_rerun()  # Re-run the app to skip the loading GIF after the first time
-
 
 st.set_page_config(page_title="Global Expansia",
                    page_icon=":earth_africa:", layout="wide")
@@ -52,7 +34,7 @@ with col2:
     col4, col5 = st.columns([5, 7])
 
     with col4:
-        st.image(value.AIESEC_MAN_LOGO)
+        st.image(value.AIESEC_MAN_WALKING)
 
     with col5:
         comp.infomation_package("Get to Know AIESEC", ["We are a global, youth-led organization that strives to achieve Peace and Fulfillment of Humankind's Potential by engaging and developing every young person in the world with our unique Leadership Development Model.",
