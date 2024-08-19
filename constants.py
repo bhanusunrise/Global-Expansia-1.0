@@ -249,4 +249,4 @@ EVENT_DESCRIPTION_HOME = "Global Expansia organized by AIESEC in University of K
 
 
 GIF_FIRE = comp.lottie_gif(
-    "https://lottie.host/embed/c6c2669b-914b-44b2-a138-8d12ff083b56/mDHVSig3TL.json")
+    "https://lottie.host/129b6391-3541-4fb3-8ceb-b6668997da2e/NFBbl0yPoG.json")
