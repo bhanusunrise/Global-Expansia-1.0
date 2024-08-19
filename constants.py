@@ -2,6 +2,7 @@
 
 import datetime
 import components as comp
+from streamlit_lottie import st_lottie
 
 BASE_URL = "https://lh3.googleusercontent.com/d/"
 BASE_URL_FLYER_VIDEO = "Flyer Videos/"
