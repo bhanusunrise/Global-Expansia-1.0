@@ -1,20 +1,26 @@
 import streamlit as st
 import components as comp
 import constants as value
-import time as time
+import time
 
 # Page Config and title
+st.set_page_config(page_title="Global Expansia",
+                   page_icon=":earth_africa:", layout="wide")
+
+# Function to display the loading GIF
 
 
 def loading_gif():
-    st.image(value.AIESEC_MAN_WALKING)
-    time.sleep(3)
-    st.experimental_rerun()
+    st.image(value.AIESEC_MAN_WALKING)  # Display the loading GIF
+    time.sleep(3)  # Wait for 3 seconds
 
 
+# Check if the app is loaded
 if 'loaded' not in st.session_state:
-    loading_gif()
-    st.session_state.loaded = True
+    loading_gif()  # Show the loading GIF
+    st.session_state.loaded = True  # Mark as loaded to skip the GIF in future reruns
+    st.experimental_rerun()  # Re-run the app to skip the loading GIF after the first time
+
 
 st.set_page_config(page_title="Global Expansia",
                    page_icon=":earth_africa:", layout="wide")
