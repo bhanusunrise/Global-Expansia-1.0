@@ -19,7 +19,7 @@ def loading_gif():
 if 'loaded' not in st.session_state:
     loading_gif()  # Show the loading GIF
     st.session_state.loaded = True  # Mark as loaded to skip the GIF in future reruns
-    st.experimental_rerun()  # Re-run the app to skip the loading GIF after the first time
+    # st.experimental_rerun()  # Re-run the app to skip the loading GIF after the first time
 
 
 st.set_page_config(page_title="Global Expansia",
