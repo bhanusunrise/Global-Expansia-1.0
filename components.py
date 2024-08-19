@@ -1,7 +1,12 @@
-import streamlit as st
 import constants as value
-import time as time
+import components as comp
+import sys
+import os
+import streamlit as st
+import time
 
+# Add the parent directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # This component can display a title with a content.
 # You have to pass component title and captions as parameters.
