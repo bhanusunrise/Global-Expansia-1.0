@@ -2,6 +2,7 @@ import streamlit as st
 import components as comp
 import constants as value
 import time
+from streamlit_lottie import st_lottie
 
 
 st.set_page_config(page_title="Global Expansia",
@@ -22,7 +23,7 @@ with col2:
         ])
 
     with col20:
-        value.GIF_FIRE
+        st_lottie(value.GIF_FIRE, key="hi")
     comp.create_gap(2)
 
     st.video(value.FLYER_7_VIDEO,
