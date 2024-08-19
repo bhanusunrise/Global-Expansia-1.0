@@ -1,8 +1,7 @@
 import streamlit as st
 import constants as value
 import time as time
-import requests
-from streamlit_lottie import st_lottie
+
 
 # This component can display a title with a content.
 # You have to pass component title and captions as parameters.
@@ -224,10 +223,3 @@ def frequently_asked_questions(question, answer):
         st.markdown(f"""
                     <p>{answer}</p>
                     """, unsafe_allow_html=True)
-
-
-def lottie_gif(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()

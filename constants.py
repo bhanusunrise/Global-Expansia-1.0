@@ -2,7 +2,6 @@
 
 import datetime
 import components as comp
-from streamlit_lottie import st_lottie
 
 BASE_URL = "https://lh3.googleusercontent.com/d/"
 BASE_URL_FLYER_VIDEO = "Flyer Videos/"
@@ -247,7 +246,3 @@ TIMELINE_CHANGING_DATE = datetime.date(2024, 8, 26)
 current_date = datetime.date.today()
 
 EVENT_DESCRIPTION_HOME = "Global Expansia organized by AIESEC in University of Kelaniya, is an event focused on personal branding through global volunteering and internships. Our program includes online sessions designed to educate delegates about international volunteering and internship opportunities while helping them build a strong personal brand. The series culminates in a final physical event offering a unique chance to secure life-changing opportunities and enhance their personal brand on a global scale."
-
-
-GIF_FIRE = comp.lottie_gif(
-    "https://lottie.host/129b6391-3541-4fb3-8ceb-b6668997da2e/NFBbl0yPoG.json")
