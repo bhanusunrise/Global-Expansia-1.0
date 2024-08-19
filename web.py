@@ -85,6 +85,11 @@ with col2:
 
     comp.create_gap(3)
 
+    comp.see_more_button(
+        "https://global-expansia-test.streamlit.app/about_aiesec")
+
+    comp.create_gap(3)
+
     comp.section_topic("FAQ")
 
     comp.create_gap(1)
