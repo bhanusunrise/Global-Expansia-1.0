@@ -22,7 +22,7 @@ with col2:
         ])
 
     with col20:
-        st_lottie(value.GIF_FIRE, key="hi")
+        st.image(value.FIRE_LOGO)
     comp.create_gap(2)
 
     st.video(value.FLYER_7_VIDEO,
