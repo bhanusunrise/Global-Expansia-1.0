@@ -55,6 +55,11 @@ with col2:
 
     comp.create_gap(3)
 
+    comp.infomation_package("Unlocking Potential with Exchange Programs", [
+        "An exchange program is an international experience that enables young people to develop their leadership potential and enhance their personal branding. Through volunteering or professional internships abroad, participants gain valuable skills and undergo significant personal growth. This transformative experience extends beyond merely visiting another country; it involves deep cultural engagement and contributing to positive global change, all while building a strong, unique personal brand."])
+
+    comp.create_gap(3)
+
     comp.section_topic("Let's See Some of Our Exchange Experiances")
     comp.create_gap(1)
 
