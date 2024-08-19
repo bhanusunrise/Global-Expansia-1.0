@@ -14,10 +14,15 @@ with col2:
     st.image(value.EVENT_LOGO, caption="", width=20, use_column_width="always",
              clamp="", channels="RGB", output_format="auto")
 
-    comp.infomation_package(" ", [
-        value.EVENT_DESCRIPTION_HOME
-    ])
+    col19, col20 = st.columns([7, 5])
 
+    with col19:
+        comp.infomation_package(" ", [
+            value.EVENT_DESCRIPTION_HOME
+        ])
+
+    with col20:
+        value.GIF_FIRE
     comp.create_gap(2)
 
     st.video(value.FLYER_7_VIDEO,
