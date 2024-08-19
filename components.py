@@ -216,3 +216,10 @@ def footer():
         """,
         unsafe_allow_html=True
     )
+
+
+def frequently_asked_questions(question, answer):
+    with st.expander(question):
+        st.markdown("""
+                    <p>{answer}</p>
+                    """)
