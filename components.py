@@ -246,7 +246,7 @@ def see_more_button(page_link):
     st.markdown(f"""
                 <center>
                     <a href="{page_link}">
-                        <button style="background-color:#003577; border-color: white; border-radius: 20px; padding-top: 10px; padding-left: 30px; padding-right: 30px; padding-bottom: 10px;">See More</button>
+                        <button target="_self" style="background-color:#003577; border-color: white; border-radius: 20px; padding-top: 10px; padding-left: 30px; padding-right: 30px; padding-bottom: 10px;">See More</button>
                     </a>
                 </center>
                 """,
