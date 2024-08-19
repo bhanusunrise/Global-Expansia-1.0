@@ -61,6 +61,9 @@ with col2:
     comp.create_gap(3)
 
     comp.section_topic("Let's See Some of Our Exchange Experiances")
+
+    st.video("https://youtu.be/BvnFN2Ab-oQ?si=KfiKRGC-20TpaI92")
+
     comp.create_gap(1)
 
     col8, col9 = st.columns([1, 1])
@@ -72,6 +75,3 @@ with col2:
     with col9:
         comp.infomation_package_quote("\"An Incredible Adventure Filled with Unforgettable Experiences and Lifelong Friendships.\"", [
             "\"Deciding to go on an internship in India was one of the best decisions I've ever made. India was incredibly welcoming, and the people I met made me feel right at home. I always value experience over qualifications, and my videographer internship in India looks impressive on my CV and makes for an interesting discussion in interviews.\""])
-
-    comp.create_gap(1)
-    st.video("https://youtu.be/BvnFN2Ab-oQ?si=KfiKRGC-20TpaI92")
