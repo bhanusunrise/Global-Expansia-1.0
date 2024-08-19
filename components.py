@@ -196,6 +196,11 @@ def timeline_image_changer():
 
 
 def footer():
+
+    create_gap(3)
+
+    st.divider()
+
     col1, col2, col3 = st.columns([1, 20, 1])
 
     with col2:
