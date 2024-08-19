@@ -127,4 +127,6 @@ with col18:
     comp.contact_section(value.THISHYA_NAME, value.THISHYA_POSITION,
                          value.THISHYA_EMAIL, value.THISHYA_CONTACT_NO, value.THISHYA_IMAGE)
 
+
+comp.register_now_button()
 comp.footer()

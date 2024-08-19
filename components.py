@@ -223,3 +223,15 @@ def frequently_asked_questions(question, answer):
         st.markdown(f"""
                     <p>{answer}</p>
                     """, unsafe_allow_html=True)
+
+
+def register_now_button():
+    form_link = "https://www.google.com"
+    st.markdown(f"""
+                <center>
+                    <a href="{form_link}">
+                        <button style="background-color:#003577; border-color: white; border-radius: 20px; padding-top: 10px; padding-left: 30px; padding-right: 30px; padding-bottom: 10px;">Register Now</button>
+                    </a>
+                </center>
+                """,
+                unsafe_allow_html=True)
