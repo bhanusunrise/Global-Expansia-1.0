@@ -78,7 +78,7 @@ with col2:
 
     comp.create_gap(3)
 
-    comp.section_topic("Contact Us")
+    comp.section_topic("Meet Our Team")
 
     col10, col11, col12, col13, col14 = st.columns([1, 2, 2, 2, 1])
 
