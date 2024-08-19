@@ -226,7 +226,7 @@ def frequently_asked_questions(question, answer):
                     """, unsafe_allow_html=True)
 
 
-def lottie_gif(url):
+def lottie_gif(url: str):
     r = requests.get(url)
     if r.status_code != 200:
         return None
