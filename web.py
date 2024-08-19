@@ -52,3 +52,8 @@ with col2:
     with col7:
         st.video(value.CN_AWRUDU_VIDEO)
         comp.infomation_package_description(["CN Awurudu 2024"])
+
+    comp.create_gap(3)
+
+    comp.section_topic("Let's See Some of Our Exchange Experiances")
+    st.video("https://youtu.be/BvnFN2Ab-oQ?si=KfiKRGC-20TpaI92")
