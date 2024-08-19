@@ -246,4 +246,4 @@ TIMELINE_CHANGING_DATE = datetime.date(2024, 8, 26)
 current_date = datetime.date.today()
 
 EVENT_DESCRIPTION_HOME = "Global Expansia organized by AIESEC in University of Kelaniya, is an event focused on personal branding through global volunteering and internships. Our program includes online sessions designed to educate delegates about international volunteering and internship opportunities while helping them build a strong personal brand. The series culminates in a final physical event offering a unique chance to secure life-changing opportunities and enhance their personal brand on a global scale."
-FIRE_LOGO = BASE_URL + "1OEseC9iLzZJuaxMLsOOBi5XDonfN4AxT"
+FIRE_LOGO = BASE_URL + "1T415xKmJi1bNyvQCwrGO0SZueLB_T1iV"
