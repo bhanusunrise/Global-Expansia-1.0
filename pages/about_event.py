@@ -39,3 +39,6 @@ def event_page():
         with col12:
             comp.infomation_package_quote("\"An Incredible Adventure Filled with Unforgettable Experiences and Lifelong Friendships.\"", [
                                           "\"Deciding to go on an internship in India was one of the best decisions I've ever made. India was incredibly welcoming, and the people I met made me feel right at home. I always value experience over qualifications, and my videographer internship in India looks impressive on my CV and makes for an interesting discussion in interviews.\""])
+
+
+event_page()

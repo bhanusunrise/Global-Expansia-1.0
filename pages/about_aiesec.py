@@ -49,3 +49,6 @@ def aiesec_page():
         st.video("https://youtu.be/mY9z2PIN6nw?si=-yX9xGLgs6B0TlAB")
     with col20:
         st.video("https://youtu.be/4lT0ZttP7F8?si=ZDlLTvvAXhy__Ejx")
+
+
+aiesec_page()
