@@ -18,12 +18,15 @@ def infomation_package(component_title, component_captions):
 
 
 def infomation_package_description(component_captions):
-    st.markdown(f"""
+    st.markdown(
+        f"""
         <div style="text-align: center;">
             {''.join(
-                [f"<p style='text-align:center; font-size:20px'>{caption}</p>" for caption in component_captions])}
+            [f"<p style='text-align:center; font-size:20px;'>{caption}</p>" for caption in component_captions])}
         </div>
-    """, unsafe_allow_html=True)
+        """,
+        unsafe_allow_html=True
+    )
 
 
 def infomation_package_quote(component_title, component_captions):
