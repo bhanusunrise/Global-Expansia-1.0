@@ -76,4 +76,30 @@ with col2:
         comp.infomation_package_quote("\"An Incredible Adventure Filled with Unforgettable Experiences and Lifelong Friendships.\"", [
             "\"Deciding to go on an internship in India was one of the best decisions I've ever made. India was incredibly welcoming, and the people I met made me feel right at home. I always value experience over qualifications, and my videographer internship in India looks impressive on my CV and makes for an interesting discussion in interviews.\""])
 
+    comp.create_gap(3)
+
+    comp.section_topic("Contact Us")
+
+    col10, col11, col12, col13, col14 = st.columns([1, 2, 2, 2, 1])
+
+    with col12:
+        comp.contact_section(value.UMAYANGI_NAME, value.UMAYANGI_POSITION,
+                             value.UMAYANGI_EMAIL, value.UMAYANGI_CONTACT_NO, value.UMAYANGI_IMAGE)
+
+    comp.create_gap(1)
+
+    col15, col16, col17, col18, col19 = st.columns([1, 2, 2, 2, 1])
+
+    with col16:
+        comp.contact_section(value.NADUNI_NAME, value.NADUNI_POSITION,
+                             value.NADUNI_EMAIL, value.NADUNI_CONTACT_NO, value.NADUNI_IMAGE)
+
+    with col17:
+        comp.contact_section(value.ASNA_NAME, value.ASNA_POSITION,
+                             value.ASNA_EMAIL, value.ASNA_CONTACT_NO, value.ASNA_IMAGE)
+
+    with col18:
+        comp.contact_section(value.THISHYA_NAME, value.THISHYA_POSITION,
+                             value.THISHYA_EMAIL, value.THISHYA_CONTACT_NO, value.THISHYA_IMAGE)
+
 comp.footer()
