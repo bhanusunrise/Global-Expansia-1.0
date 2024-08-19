@@ -1,11 +1,16 @@
 import streamlit as st
 import components as comp
 import constants as value
+import time as time
 
 # Page Config and title
 
 st.set_page_config(page_title="Global Expansia",
                    page_icon=":earth_africa:", layout="wide")
+
+if 'loaded' not in st.session_state:
+    comp.loading_gif()
+    st.session_state.loaded = True
 
 col1, col2, col3 = st.columns([1, 9, 1])
 
