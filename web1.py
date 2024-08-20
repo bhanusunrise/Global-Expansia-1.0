@@ -2,7 +2,7 @@ import streamlit as st
 import home as hm
 import pages.about_event as event
 import pages.about_aiesec as aiesec
-import contacts as cnt
+import pages.contacts as cnt
 import gv as gv
 import gta as gta
 import gte as gte
