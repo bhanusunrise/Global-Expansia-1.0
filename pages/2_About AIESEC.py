@@ -28,9 +28,9 @@ def aiesec_page():
         comp.infomation_package("AIESEC in Sri Lanka", ["Our values guide us in our everyday behavior to encourage finding new solutions and ideas for current world issues. We believe that young people learn best by doing and reflecting. AIESEC enables young people to learn the most from every experience.",
                                 "The organization is entrusted by many national and multinational organizations to help them gain access to youth opinion, approach top-talents for future recruitment, strengthen their image among youth and position themselves as socially responsible businesses by investing in youth leadership development."])
 
-    comp.create_gap(2)
+    comp.create_gap(3)
     comp.aiesec_stats()
-    comp.create_gap(2)
+    comp.create_gap(3)
 
     col10, col11, col12, col13 = st.columns([1, 4, 4, 1])
     with col11:
