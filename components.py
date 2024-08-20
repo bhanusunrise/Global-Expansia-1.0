@@ -265,3 +265,43 @@ def aiesec_stats():
                 </center>
                 """,
                     unsafe_allow_html=True)
+
+    with col2:
+        st.markdown(f"""
+                <center>
+                    <h5>Active Members</h5>
+                    <h3>1.5K+</h3>
+                    <h5>Nationally</h5>
+                </center>
+                """,
+                    unsafe_allow_html=True)
+
+    with col3:
+        st.markdown(f"""
+                <center>
+                    <h5>Exchange Experiances</h5>
+                    <h3>1.5K</h3>
+                    <h5>Annually</h5>
+                </center>
+                """,
+                    unsafe_allow_html=True)
+
+    with col4:
+        st.markdown(f"""
+                <center>
+                    <h5>Social Projects</h5>
+                    <h3>100+</h3>
+                    <h5>Annually</h5>
+                </center>
+                """,
+                    unsafe_allow_html=True)
+
+    with col5:
+        st.markdown(f"""
+                <center>
+                    <h5>Social Media Engagement</h5>
+                    <h3>50K+</h3>
+                    <h5>Outreach</h5>
+                </center>
+                """,
+                    unsafe_allow_html=True)
