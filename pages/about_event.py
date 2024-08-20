@@ -10,6 +10,10 @@ def event_page():
 
     col1, col2, col3 = st.columns([1, 9, 1])
     with col2:
+        st.image(value.EVENT_LOGO, caption="", width=20, use_column_width="always",
+                 clamp="", channels="RGB", output_format="auto")
+
+        comp.create_gap(2)
         comp.infomation_package("What is Global Expansia?", ["Global Expansia mainly focuses on personal branding through the transformative impact of international internships and volunteering. The event offers youth the chance to embrace diverse cultures and develop their talents on a global scale. By connecting nations, we provide young people with opportunities to engage with international opportunity providers, helping them gain insights into how they can strategically invest their skills and build a strong personal brand that stands out in the global arena."])
 
     comp.create_gap(3)
