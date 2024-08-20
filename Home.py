@@ -38,6 +38,11 @@ with col2:
 
     comp.create_gap(3)
 
+    comp.see_more_button(
+        "https://globalexpansia.streamlit.app/About_Global_Expansia")
+
+    comp.create_gap(3)
+
     col4, col5 = st.columns([5, 7])
 
     with col4:
@@ -133,5 +138,7 @@ with col18:
                          value.THISHYA_EMAIL, value.THISHYA_CONTACT_NO, value.THISHYA_IMAGE)
 
 comp.create_gap(3)
+comp.see_more_button(
+    "https://globalexpansia.streamlit.app/Contact_Us")
 comp.register_now_button()
 comp.footer()
