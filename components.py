@@ -299,7 +299,7 @@ def aiesec_stats():
     with col5:
         st.markdown(f"""
                 <center>
-                    <h5>Social Media Engagement</h5>
+                    <h5>Digital Engagement</h5>
                     <h3>50K+</h3>
                     <h5>Outreach</h5>
                 </center>
