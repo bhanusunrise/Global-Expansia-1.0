@@ -21,10 +21,10 @@ with col101:
         gv.gv_page()
 
     with tab2:
-        gta.gta_page()
+        gte.gte_page()
 
     with tab3:
-        gte.gte_page()
+        gta.gta_page()
 
     comp.create_gap(3)
     comp.register_now_button()
