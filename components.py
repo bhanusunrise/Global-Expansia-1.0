@@ -260,7 +260,7 @@ def aiesec_stats():
         st.markdown(f"""
                 <center>
                     <h5>Present in</h5>
-                    <h3>20+</h3>
+                    <h2>20+</h2>
                     <h5>Universities</h5>
                 </center>
                 """,
@@ -270,7 +270,7 @@ def aiesec_stats():
         st.markdown(f"""
                 <center>
                     <h5>Active Members</h5>
-                    <h3>1.5K+</h3>
+                    <h2>1.5K+</h2>
                     <h5>Nationally</h5>
                 </center>
                 """,
@@ -280,7 +280,7 @@ def aiesec_stats():
         st.markdown(f"""
                 <center>
                     <h5>Exchange Experiances</h5>
-                    <h3>1.5K</h3>
+                    <h2>1.5K</h2>
                     <h5>Annually</h5>
                 </center>
                 """,
@@ -290,7 +290,7 @@ def aiesec_stats():
         st.markdown(f"""
                 <center>
                     <h5>Social Projects</h5>
-                    <h3>100+</h3>
+                    <h2>100+</h2>
                     <h5>Annually</h5>
                 </center>
                 """,
@@ -300,7 +300,7 @@ def aiesec_stats():
         st.markdown(f"""
                 <center>
                     <h5>Digital Engagement</h5>
-                    <h3>50K+</h3>
+                    <h2>50K+</h2>
                     <h5>Outreach</h5>
                 </center>
                 """,
