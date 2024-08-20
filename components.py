@@ -251,3 +251,17 @@ def see_more_button(page_link):
                 </center>
                 """,
                 unsafe_allow_html=True)
+
+
+def aiesec_stats():
+    col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 1])
+
+    with col1:
+        st.markdown(f"""
+                <center>
+                    <h5>Present in</h5>
+                    <h3>20+</h3>
+                    <h5>Universities</h5>
+                </center>
+                """,
+                    unsafe_allow_html=True)
