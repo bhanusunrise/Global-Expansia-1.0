@@ -54,5 +54,9 @@ def aiesec_page():
     with col20:
         st.video("https://youtu.be/4lT0ZttP7F8?si=ZDlLTvvAXhy__Ejx")
 
+    comp.create_gap(3)
+    comp.register_now_button()
+    comp.footer()
+
 
 aiesec_page()
