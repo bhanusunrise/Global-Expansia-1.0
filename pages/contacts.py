@@ -84,3 +84,6 @@ def contacts_page():
                              value.SAFAA_EMAIL, value.SAFAA_CONTACT_NO, value.SAFAA_IMAGE)
 
     comp.create_gap(3)
+
+
+contacts_page()
