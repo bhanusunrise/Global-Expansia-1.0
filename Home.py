@@ -140,5 +140,8 @@ with col18:
 comp.create_gap(3)
 comp.see_more_button(
     "https://globalexpansia.streamlit.app/Contact_Us")
+
+comp.create_gap(1)
+
 comp.register_now_button()
 comp.footer()
