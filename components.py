@@ -231,7 +231,7 @@ def frequently_asked_questions(question, answer):
 
 
 def register_now_button():
-    form_link = "https://www.google.com"
+    form_link = "https://forms.gle/gsudeSjTkuasuTbR7"
     st.markdown(f"""
                 <center>
                     <a href="{form_link}">
