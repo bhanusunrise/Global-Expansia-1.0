@@ -112,7 +112,7 @@ with col2:
     comp.create_gap(1)
 
     comp.frequently_asked_questions(
-        "Question 1", "jkahdshuifwhfafiasdfkdhkjfsfkjshfdshfdsgfdsgfdjsgfsdgfsdgfsdjgf")
+        value.QUESTION_1, value.ANSWER_1)
 
     comp.frequently_asked_questions(
         "Question 1", "jkahdshuifwhfafiasdfkdhkjfsfkjshfdshfdsgfdsgfdjsgfsdgfsdgfsdjgf")

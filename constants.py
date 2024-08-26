@@ -252,3 +252,9 @@ FIRE_LOGO = BASE_URL + "15SHXYWvm5NOaY7Jpl-YooOX6JQ6XPCDM"
 # PARTNERS
 
 CHARANA_LOGO = BASE_URL + "19-pTDn6wOSpBBFlBrwtzMd1q-P3tsjxs"
+
+
+# Q and A
+
+QUESTION_1 = "Who can participate in Global Expansia?"
+ANSWER_1 = "You can register for Global Expansia through our official registration link, which will be shared on our website and social media platforms. Keep an eye out for registration dates and deadlines."
