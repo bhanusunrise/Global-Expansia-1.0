@@ -28,7 +28,7 @@ with col2:
     comp.create_gap(2)
 
     st.video(value.DEWMINI_INTERVIEW_VIDEO,
-             loop=False, autoplay=False, muted=False)
+             loop=False, autoplay=True, muted=False)
 
     # comp.create_gap(2)
 
