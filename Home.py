@@ -30,11 +30,11 @@ with col2:
     st.video(value.FLYER_7_VIDEO,
              loop=False, autoplay=False, muted=False)
 
-    comp.create_gap(2)
+    # comp.create_gap(2)
 
-    comp.section_topic("Event Timeline")
+    # comp.section_topic("Event Timeline")
 
-    comp.timeline_image_changer()
+    # comp.timeline_image_changer()
 
     comp.create_gap(3)
 
