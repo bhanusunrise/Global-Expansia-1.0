@@ -235,7 +235,7 @@ def frequently_asked_questions(question, answer, link):
         with st.expander(question):
             st.markdown(f"""
                     <p>{answer}</p>
-                    <a href = {link}>{link}</a>
+                    <p><a href = {link}>{link}</a></p>
                     """, unsafe_allow_html=True)
 
 
