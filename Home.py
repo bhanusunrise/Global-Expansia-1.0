@@ -27,7 +27,7 @@ with col2:
         st.image(value.FIRE_LOGO)
     comp.create_gap(2)
 
-    st.video(value.FLYER_7_VIDEO,
+    st.video(value.DEWMINI_INTERVIEW_VIDEO,
              loop=False, autoplay=False, muted=False)
 
     # comp.create_gap(2)
