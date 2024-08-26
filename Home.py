@@ -112,13 +112,13 @@ with col2:
     comp.create_gap(1)
 
     comp.frequently_asked_questions(
-        value.QUESTION_1, value.ANSWER_1)
+        value.QUESTION_1, value.ANSWER_1, None)
 
     comp.frequently_asked_questions(
         value.QUESTION_2, value.ANSWER_2, value.LINK_2)
-    comp.frequently_asked_questions(value.QUESTION_3, value.ANSWER_3)
-    comp.frequently_asked_questions(value.QUESTION_4, value.ANSWER_4)
-    comp.frequently_asked_questions(value.QUESTION_5, value.ANSWER_5)
+    comp.frequently_asked_questions(value.QUESTION_3, value.ANSWER_3, None)
+    comp.frequently_asked_questions(value.QUESTION_4, value.ANSWER_4, None)
+    comp.frequently_asked_questions(value.QUESTION_5, value.ANSWER_5, None)
 
     comp.create_gap(3)
 
