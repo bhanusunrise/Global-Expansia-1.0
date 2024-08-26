@@ -225,7 +225,7 @@ def footer():
 
 def frequently_asked_questions(question, answer, link):
 
-    if link != None:
+    if link == None:
         with st.expander(question):
             st.markdown(f"""
                     <p>{answer}</p>
