@@ -305,3 +305,13 @@ def aiesec_stats():
                 </center>
                 """,
                     unsafe_allow_html=True)
+
+
+def partner(logo, title):
+    st.image(logo)
+    st.markdown(f"""
+                <center>
+                    <p style = "font-size:20px";>{title}</p>
+                </center>
+                """,
+                unsafe_allow_html=True)

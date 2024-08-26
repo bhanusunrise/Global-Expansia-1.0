@@ -43,6 +43,14 @@ with col2:
 
     comp.create_gap(3)
 
+    comp.section_topic("Our Partners")
+
+    comp.create_gap(1)
+
+    comp.partner(value.CHARANA_LOGO, "Official Electronic Media Partner")
+
+    comp.create_gap(3)
+
     col4, col5 = st.columns([5, 7])
 
     with col4:
