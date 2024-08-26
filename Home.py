@@ -115,13 +115,10 @@ with col2:
         value.QUESTION_1, value.ANSWER_1)
 
     comp.frequently_asked_questions(
-        "Question 1", "jkahdshuifwhfafiasdfkdhkjfsfkjshfdshfdsgfdsgfdjsgfsdgfsdgfsdjgf")
-    comp.frequently_asked_questions(
-        "Question 1", "jkahdshuifwhfafiasdfkdhkjfsfkjshfdshfdsgfdsgfdjsgfsdgfsdgfsdjgf")
-    comp.frequently_asked_questions(
-        "Question 1", "jkahdshuifwhfafiasdfkdhkjfsfkjshfdshfdsgfdsgfdjsgfsdgfsdgfsdjgf")
-    comp.frequently_asked_questions(
-        "Question 1", "jkahdshuifwhfafiasdfkdhkjfsfkjshfdshfdsgfdsgfdjsgfsdgfsdgfsdjgf")
+        value.QUESTION_2, value.ANSWER_2, value.LINK_2)
+    comp.frequently_asked_questions(value.QUESTION_3, value.ANSWER_3)
+    comp.frequently_asked_questions(value.QUESTION_4, value.ANSWER_4)
+    comp.frequently_asked_questions(value.QUESTION_5, value.ANSWER_5)
 
     comp.create_gap(3)
 

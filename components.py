@@ -223,10 +223,19 @@ def footer():
     )
 
 
-def frequently_asked_questions(question, answer):
-    with st.expander(question):
-        st.markdown(f"""
+def frequently_asked_questions(question, answer, link):
+
+    if link != None:
+        with st.expander(question):
+            st.markdown(f"""
                     <p>{answer}</p>
+                    """, unsafe_allow_html=True)
+
+    else:
+        with st.expander(question):
+            st.markdown(f"""
+                    <p>{answer}</p>
+                    <a href = {link}>{link}</a>
                     """, unsafe_allow_html=True)
 
 

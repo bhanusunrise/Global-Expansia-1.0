@@ -258,3 +258,16 @@ CHARANA_LOGO = BASE_URL + "19-pTDn6wOSpBBFlBrwtzMd1q-P3tsjxs"
 
 QUESTION_1 = "Who can participate in Global Expansia?"
 ANSWER_1 = "You can register for Global Expansia through our official registration link, which will be shared on our website and social media platforms. Keep an eye out for registration dates and deadlines."
+
+QUESTION_2 = "How do I register for Global Expansia?"
+ANSWER_2 = "You can register for Global Expansia through our official registration link, which will be shared on our website and social media platforms. Keep an eye out for registration dates and deadlines."
+LINK_2 = "https://forms.gle/gsudeSjTkuasuTbR7"
+
+QUESTION_3 = "Is there a registration fee?"
+ANSWER_3 = "No, participation in Global Expansia is completely free. However, registration is required to attend the sessions and engage in the activities."
+
+QUESTION_4 = "What can I expect to gain from attending Global Expansia?"
+ANSWER_4 = "Delegates can expect to gain valuable insights into personal branding, explore international opportunities, network with like-minded individuals, and learn how to strategically invest in their skills to stand out in the global arena. Additionally, there will be opportunities to engage directly with international organizations and entities through live IR (International Relations) calls, providing a unique platform to build connections and gain real-time insights into global opportunities. On the final day of the event, all participants will receive an e-certificate of participation, recognizing their involvement throughout the event.On the final day of the event, all participants will receive an e-certificate of participation, recognizing their involvement throughout the event."
+
+QUESTION_5 = "What if I have more questions or need assistance?"
+ANSWER_5 = "If you have any additional questions or need further assistance, you can contact the Organizing Committee Vice President for Delegates. You can find their contact information in the “Contact Us” section of our website. The team is here to help with any inquiries you may have!"
