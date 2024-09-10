@@ -5,6 +5,8 @@ import gv as gv
 import gta as gta
 import gte as gte
 
+with st.sidebar:
+    comp.register_now_button()
 
 col100, col101, col102 = st.columns([1, 9, 1])
 

@@ -5,6 +5,8 @@ import time as timer
 
 
 def aiesec_page():
+    with st.sidebar:
+        comp.register_now_button()
 
     comp.create_gap(1)
 

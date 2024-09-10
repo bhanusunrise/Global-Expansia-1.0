@@ -6,6 +6,9 @@ import time as timer
 
 def event_page():
 
+    with st.sidebar:
+        comp.register_now_button()
+
     comp.create_gap(1)
 
     col1, col2, col3 = st.columns([1, 9, 1])

@@ -5,6 +5,9 @@ import constants as value
 
 def contacts_page():
 
+    with st.sidebar:
+        comp.register_now_button()
+
     col100, col101, col102 = st.columns([1, 9, 1])
 
     with col101:

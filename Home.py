@@ -7,6 +7,9 @@ import time
 st.set_page_config(page_title="Global Expansia",
                    page_icon=":earth_africa:", layout="wide")
 
+with st.sidebar:
+    comp.register_now_button()
+
 col1, col2, col3 = st.columns([1, 9, 1])
 
 with col2:
