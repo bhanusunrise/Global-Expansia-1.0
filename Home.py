@@ -50,7 +50,7 @@ with col2:
 
     comp.create_gap(1)
 
-    col21, col22, col23, col24 = st.columns([2, 3, 3, 2])
+    col21, col22, col23, col24 = st.columns([2, 3, 5, 2])
 
     with col22:
 
