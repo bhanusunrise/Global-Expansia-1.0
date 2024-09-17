@@ -60,9 +60,9 @@ with col2:
 
         comp.partner(value.CHOKOLATTE_LOGO, "Official Media Partner")
 
-    with col23:
+    # with col23:
 
-        comp.partner(value.EDUWIRE_LOGO, "Official Media Partner")
+        # comp.partner(value.EDUWIRE_LOGO, "Official Media Partner")
 
     with col24:
 
