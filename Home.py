@@ -50,15 +50,27 @@ with col2:
 
     comp.create_gap(1)
 
-    col21, col22, col23, col24 = st.columns([3, 3, 3, 3])
+    col21, col22, col23, col24, col25 = st.columns([3, 3, 3, 3, 3])
 
-    with col22:
+    with col21:
 
         comp.partner(value.CHARANA_LOGO, "Official Electronic Media Partner")
 
-    with col23:
+    with col22:
 
         comp.partner(value.CHOKOLATTE_LOGO, "Official Media Partner")
+
+    with col23:
+
+        comp.partner(value.EDUWIRE_LOGO, "Official Media Partner")
+
+    with col24:
+
+        comp.partner(value.NEWSWIRE_LOGO, "Official Media Partner")
+
+    with col25:
+
+        comp.partner(value.ROTARACT_LOGO, "Official Networking Partner")
 
     comp.create_gap(3)
 
