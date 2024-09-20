@@ -9,7 +9,7 @@ def gv_page():
 
     comp.section_topic("Volunteering Opportunities")
 
-    comp.infomation_package_description(value.DESC_GV)
+    comp.infomation_package_description([value.DESC_GV])
 
     comp.create_gap(1)
 
