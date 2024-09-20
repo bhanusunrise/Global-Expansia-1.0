@@ -9,6 +9,8 @@ def gta_page():
 
     comp.section_topic("Internships")
 
+    comp.infomation_package_description([value.DESC_GTA])
+
     comp.create_gap(1)
 
     col1, col2, col3, col4, col5 = st.columns([1, 10, 10, 10, 1])
