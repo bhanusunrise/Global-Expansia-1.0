@@ -70,5 +70,5 @@ def gv_page():
 
     col25, col26, col27, col28, col29 = st.columns([1, 10, 10, 10, 1])
 
-    with col27:
+    with col26:
         st.image(value.GV_5)
