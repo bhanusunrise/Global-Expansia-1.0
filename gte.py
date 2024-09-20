@@ -40,5 +40,5 @@ def gte_page():
     with col12:
         st.image(value.GTE_7)
 
-    with col14:
+    with col13:
         st.image(value.GTE_2)
