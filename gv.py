@@ -9,6 +9,8 @@ def gv_page():
 
     comp.section_topic("Volunteering Opportunities")
 
+    comp.infomation_package_description(value.DESC_GV)
+
     comp.create_gap(1)
 
     col1, col2, col3, col4, col5 = st.columns([1, 10, 10, 10, 1])
