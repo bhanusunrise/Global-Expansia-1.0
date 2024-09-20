@@ -31,9 +31,9 @@ TOPIC_GTE = "Global Teacher"
 
 # Function descriptions
 
-DESC_GV = "On a Global Volunteer project with AIESEC, you work towards tackling the issues you're most passionate about with one of the Sustainable Development Goals of the United Nations."
-DESC_GTA = "Our pool of opportunities are growing across fields - we're sure you'll find one best fitting your background and experiences."
-DESC_GTE = "Our teaching opportunities are very diverse - whether looking to teach for the first time or you’re already an experienced teacher, you will find an opportunity looking for someone like you!"
+DESC_GV = "Global Volunteer gives young people (18-30) the chance to work in teams from different cultures, helping to make the world better. You can grow as a person, support important global goals, and make your CV stronger by volunteering for six weeks, gaining experience that sets you apart from others."
+DESC_GTA = "Global Talent is an internship program for young people to develop their careers in a global setting. Work in different environments, gain skills in fields like marketing, IT, and business, and improve leadership abilities. This experience helps you build both professional and personal skills for future success."
+DESC_GTE = "Global Teacher is an international teaching internship for young people to start their careers. Gain real teaching experience, explore new cultures, and build a global network. After completing the program, you'll receive a well-recognized international certificate, helping you grow both professionally and personally for future opportunities."
 
 # Function logos
 
