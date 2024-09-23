@@ -74,6 +74,22 @@ with col2:
 
     comp.create_gap(3)
 
+    col26, col27, col28, col29, col30 = st.columns([3, 3, 3, 3, 3])
+
+    with col27:
+
+        comp.partner(value.ENVALON_LOGO, "Official Photography Partner")
+
+    with col28:
+
+        comp.partner(value.METANO_LOGO, "Official Banner Partner")
+
+    with col29:
+
+        comp.partner(value.MUSU_LOGO, "Premium Banner Partner")
+
+    comp.create_gap(3)
+
     col4, col5 = st.columns([5, 7])
 
     with col4:

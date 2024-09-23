@@ -324,3 +324,4 @@ def partner(logo, title):
                 </center>
                 """,
                 unsafe_allow_html=True)
+
