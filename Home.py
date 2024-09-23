@@ -72,7 +72,7 @@ with col2:
 
         comp.partner(value.ROTARACT_LOGO, "Official Networking Partner")
 
-    comp.create_gap(3)
+    comp.create_gap(2)
 
     col26, col27, col28, col29, col30 = st.columns([3, 3, 3, 3, 3])
 
