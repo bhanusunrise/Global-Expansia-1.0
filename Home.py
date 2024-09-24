@@ -74,15 +74,15 @@ with col2:
 
     col26, col27, col28, col29, col30 = st.columns([3, 6, 6, 6, 3])
 
-    with col26:
+    with col27:
 
         comp.partner(value.ROTARACT_LOGO, "Official Networking Partner")
 
-    with col27:
+    with col28:
 
         comp.partner(value.ENVALON_LOGO, "Official Photography Partner")
 
-    with col28:
+    with col29:
 
         comp.partner(value.METANO_LOGO, "Official Banner Partner")
 
