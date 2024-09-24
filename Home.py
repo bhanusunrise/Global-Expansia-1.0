@@ -74,9 +74,9 @@ with col2:
 
     col26, col27, col28, col29, col30 = st.columns([3, 3, 3, 3, 3])
 
-    # with col26:
+    with col26:
 
-    # comp.partner(value.QUIRA_LOGO, "Exclusive PR Partner")
+        comp.partner(value.QUIRA_LOGO, "Exclusive PR Partner")
 
     with col27:
 
