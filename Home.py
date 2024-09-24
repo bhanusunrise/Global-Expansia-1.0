@@ -72,11 +72,11 @@ with col2:
 
         comp.partner(value.NEWSWIRE_LOGO, "Official Media Partner")
 
-    col26, col27, col28, col29, col30 = st.columns(
-        [3, 3, 3, 3, 3])
+    col26, col27, col28, col29, col30 = st.columns([3, 3, 3, 3, 3])
 
-    with col26:
-        comp.partner(value.QUIRA_LOGO, "Exclusive PR Partner")
+    # with col26:
+
+    # comp.partner(value.QUIRA_LOGO, "Exclusive PR Partner")
 
     with col27:
 
