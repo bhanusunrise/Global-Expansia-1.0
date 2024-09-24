@@ -54,27 +54,29 @@ with col2:
 
     with col21:
 
-        comp.partner(value.CHARANA_LOGO, "Official Electronic Media Partner")
+        comp.partner(value.BML_LOGO, "Official Silver Partner")
 
     with col22:
 
-        comp.partner(value.CHOKOLATTE_LOGO, "Official Media Partner")
+        comp.partner(value.CHARANA_LOGO, "Official Electronic Media Partner")
 
     with col23:
 
-        comp.partner(value.EDUWIRE_LOGO, "Official Media Partner")
+        comp.partner(value.CHOKOLATTE_LOGO, "Official Media Partner")
 
     with col24:
 
-        comp.partner(value.NEWSWIRE_LOGO, "Official Media Partner")
+        comp.partner(value.EDUWIRE_LOGO, "Official Media Partner")
 
     with col25:
 
-        comp.partner(value.ROTARACT_LOGO, "Official Networking Partner")
-
-    comp.create_gap(2)
+        comp.partner(value.NEWSWIRE_LOGO, "Official Media Partner")
 
     col26, col27, col28, col29, col30 = st.columns([3, 3, 3, 3, 3])
+
+    with col26:
+
+        comp.partner(value.ROTARACT_LOGO, "Official Networking Partner")
 
     with col27:
 
