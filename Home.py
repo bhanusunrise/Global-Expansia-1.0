@@ -50,7 +50,7 @@ with col2:
 
     comp.create_gap(1)
 
-    col21, col22, col23, col24, col25 = st.columns([6, 6, 6, 6, 6])
+    col21, col22, col23, col24, col25 = st.columns([3, 3, 3, 3, 3])
 
     with col21:
 
@@ -72,7 +72,8 @@ with col2:
 
         comp.partner(value.NEWSWIRE_LOGO, "Official Media Partner")
 
-    col26, col27, col28, col29, col30 = st.columns([3, 6, 6, 6, 3])
+    col26, col27, col28, col29, col30, col31 = st.columns(
+        [1.5, 3, 3, 3, 3, 1.5])
 
     with col27:
 
