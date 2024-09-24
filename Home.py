@@ -87,7 +87,7 @@ with col2:
 
         comp.partner(value.METANO_LOGO, "Official Banner Partner")
 
-    with col29:
+    with col30:
 
         comp.partner(value.MUSU_LOGO, "Premium Banner Partner")
 
