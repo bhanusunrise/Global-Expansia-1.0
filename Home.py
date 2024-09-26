@@ -1,7 +1,7 @@
 import streamlit as st
 import components as comp
 import constants as value
-import time
+# import time
 
 
 st.set_page_config(page_title="Global Expansia",
