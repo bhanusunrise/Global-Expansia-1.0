@@ -75,28 +75,32 @@ with col2:
     with col26:
         comp.partner(value.HAMEEDIA_LOGO, "Official Gift Partner")
 
-    col27, col28, col29, col30, col31, col32, col33 = st.columns(
-        [1.5, 3, 3, 3, 3, 3, 1.5])
+    col27, col28, col29, col30, col31, col32 = st.columns(
+        [1.5, 3, 3, 3, 3, 3])
 
-    with col28:
+    with col27:
 
         comp.partner(value.QUIRA_LOGO, "Exclusive PR Partner")
 
-    with col29:
+    with col28:
 
         comp.partner(value.ROTARACT_LOGO, "Official Networking Partner")
 
-    with col30:
+    with col29:
 
         comp.partner(value.ENVALON_LOGO, "Official Photography Partner")
 
-    with col31:
+    with col30:
 
         comp.partner(value.METANO_LOGO, "Official Banner Partner")
 
-    with col32:
+    with col31:
 
         comp.partner(value.MUSU_LOGO, "Premium Banner Partner")
+
+    with col32:
+
+        comp.partner(value.NEO_LOGO, "Official Printing Partner")
 
     comp.create_gap(3)
 
