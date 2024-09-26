@@ -76,7 +76,7 @@ with col2:
         comp.partner(value.HAMEEDIA_LOGO, "Official Gift Partner")
 
     col27, col28, col29, col30, col31, col32 = st.columns(
-        [1.5, 3, 3, 3, 3, 3])
+        [3, 3, 3, 3, 3, 3])
 
     with col27:
 
